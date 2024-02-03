@@ -4,7 +4,7 @@ def selec_sort(lst1):
         sm = lst1[i]
         x = i
         print("i=", i)
-        for j in range(i, len(lst1)):
+        for j in range(i+1, len(lst1)):
             if sm > lst1[j]:
                 sm = lst1[j]
                 x = j
