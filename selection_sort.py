@@ -13,3 +13,4 @@ def selec_sort(lst1):
 lst = [10, 7, 9, 4, 20, 8]
 print(selec_sort(lst))
 
+
