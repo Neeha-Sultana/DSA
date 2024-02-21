@@ -23,7 +23,6 @@ def merge(arr,low,med,high):
     while(x2<=high):
         tempp.append(arr[x2])
         x2+=1
-
     for i in range(low,high+1):
         arr[i]=tempp[i-low]
         
