@@ -17,7 +17,6 @@ def merge(arr,low,med,high):
         else:
             tempp.append(arr[x2])
             x2+=1
-
     while(x1<=med):
         tempp.append(arr[x1])
         x1+=1
