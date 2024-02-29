@@ -5,7 +5,7 @@ def bub_sort(lst1):
             print("i=",i,"j=",j,"lst1=",lst1)
             if lst1[j-1]>lst1[j]:
                 lst1[j],lst1[j-1]=lst1[j-1],lst1[j]
-            
+         
     return lst1
 
 lst = [10, 7, 9, 4, 20, 8]
