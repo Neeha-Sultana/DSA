@@ -12,7 +12,6 @@ lst = [10, 7, 9, 4, 20, 8]
 print(bub_sort(lst))
 """
 
-
 def insertion_sort(arr):
     for i in range(1,len(arr)):
         key=arr[i]
