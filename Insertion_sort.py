@@ -16,8 +16,7 @@ def insertion_sort(arr):
         while(j>=0 and arr[j]>key):
             arr[j+1]=arr[j]
             j=j-1
-        arr[j+1]=key
-    
+        arr[j+1]=key   
     return arr
 arr=[10, 7, 9, 4, 20, 8]
 print(insertion_sort(arr))
