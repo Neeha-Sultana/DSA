@@ -16,7 +16,6 @@ def partition(arr, low, high):
             arr[i], arr[j] = arr[j], arr[i]
     arr[low], arr[j] = arr[j], arr[low]
     return j
-
 arr = [3, 56, 1, 54, 12, 4]
 qs(arr, 0, len(arr) - 1)
 print(arr)
