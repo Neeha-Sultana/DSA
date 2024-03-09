@@ -4,7 +4,6 @@ def bub_sort(arr,x):
     for j in range(0,x-2):
             if arr[j]>arr[j+1]:
                 arr[j],arr[j+1]=arr[j+1],arr[j]
-
     bub_sort(arr,x-1)
     return arr
 
