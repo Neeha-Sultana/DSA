@@ -3,7 +3,6 @@ def qs(arr, low, high):
         pi = partition(arr, low, high)
         qs(arr, low, pi - 1)
         qs(arr, pi + 1, high)
-
 def partition(arr, low, high):
     i = low
     j = high
