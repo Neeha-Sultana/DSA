@@ -21,3 +21,4 @@ def insertion_sort(arr):
 arr=[10, 7, 9, 4, 20, 8]
 print(insertion_sort(arr))
         
+
