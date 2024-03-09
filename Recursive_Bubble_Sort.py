@@ -1,5 +1,4 @@
 def bub_sort(arr,x):
-
     if x==1:
         return
 
