@@ -6,7 +6,6 @@ def mergesort(arr,low,high):
     mergesort(arr,med+1,high)
     merge(arr,low,med,high)
     return arr
-   
 def merge(arr,low,med,high):
     x1=low
     x2=med+1
