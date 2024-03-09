@@ -25,8 +25,7 @@ def merge(arr,low,med,high):
         x2+=1
     for i in range(low,high+1):
         arr[i]=tempp[i-low]
-        
- 
+         
 print(mergesort([1,2,34,5,2,1,55,4],0,7))
     
             
