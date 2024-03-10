@@ -6,7 +6,6 @@ def qs(arr, low, high):
 def partition(arr, low, high):
     i = low
     j = high
-
     pivot = arr[low]
     while i < j:
         while arr[i] <= pivot and i <= high - 1:
