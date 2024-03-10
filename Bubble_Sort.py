@@ -6,3 +6,4 @@ def BubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 print(BubbleSort([1, 4, 3, 12, 98, 4]))
+
