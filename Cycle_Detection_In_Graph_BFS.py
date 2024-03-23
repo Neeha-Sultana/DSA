@@ -1,5 +1,4 @@
 from collections import deque
-
 class Graph:
     def __init__(self, vertices):
         self.V = vertices
