@@ -29,7 +29,6 @@ class Graph:
                 return True
         return False
 
-
 # Driver Code
 if __name__ == "__main__":
     V = 4
