@@ -22,7 +22,6 @@ class Graph:
                 elif parent[u] != v:
                     return True
         return False
-
     def is_cyclic_disconnected(self):
         visited = [False] * self.V
         for i in range(self.V):
