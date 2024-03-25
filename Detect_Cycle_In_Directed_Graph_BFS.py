@@ -35,7 +35,6 @@ def isCycleExist(n,graph):
 		# Extract front of queue (or perform dequeue) 
 		# and add it to topological order 
 		nu=queue.pop(0)
-
 		# Iterate through all its neighbouring nodes 
 		# of dequeued node u and decrease their in-degree 
 		# by 1 
