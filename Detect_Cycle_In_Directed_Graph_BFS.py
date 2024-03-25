@@ -33,7 +33,6 @@ def isCycleExist(n,graph):
 	# One by one dequeue vertices from queue and enqueue 
 	# adjacents if indegree of adjacent becomes 0 
 	while(queue):
-
 		# Extract front of queue (or perform dequeue) 
 		# and add it to topological order 
 		nu=queue.pop(0)
