@@ -29,7 +29,6 @@ def isCycleExist(n,graph):
                 queue.append(i)
 	# Initialize count of visited vertices
 	cnt=0
-
 	# One by one dequeue vertices from queue and enqueue 
 	# adjacents if indegree of adjacent becomes 0 
 	while(queue):
