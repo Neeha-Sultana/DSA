@@ -22,7 +22,6 @@ def isCycleExist(n,graph):
 	for i in range(n):
             for j in graph[i]:
                 in_degree[j]+=1
-	
 	# Create an queue and enqueue all vertices with indegree 0
 	queue=[]
 	for i in range(len(in_degree)):
