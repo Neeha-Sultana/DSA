@@ -45,7 +45,6 @@ def isCycleExist(n,graph):
 			if in_degree[v]==0:
 				queue.append(v)
 		cnt+=1
-
 	# Check if there was a cycle 
 	if cnt==n:
 		return False
