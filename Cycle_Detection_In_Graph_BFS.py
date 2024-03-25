@@ -30,6 +30,7 @@ class Graph:
             if not visited[i] and self.is_cyclic_connected(i):
                 return True
         return False
+        
 # Driver Code
 if __name__ == "__main__":
     V = 4
