@@ -39,7 +39,6 @@ if __name__ == "__main__":
     g.add_edge(1, 2)
     g.add_edge(2, 0)
     g.add_edge(2, 3)
-
     if g.is_cyclic_disconnected():
         print("Yes")
     else:
