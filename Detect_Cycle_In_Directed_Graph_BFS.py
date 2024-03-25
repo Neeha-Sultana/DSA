@@ -66,4 +66,3 @@ if __name__=='__main__':
 	else:
 		print("No")
 
-# This Code is Contributed by Vikash Kumar 37
