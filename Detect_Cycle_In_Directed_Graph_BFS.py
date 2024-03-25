@@ -61,7 +61,7 @@ if __name__=='__main__':
 	g.addEdge(2,0)
 	g.addEdge(3,4)
 	g.addEdge(4,5)
-	
+
 	if isCycleExist(g.V,g.graph):
 		print("Yes")
 	else:
