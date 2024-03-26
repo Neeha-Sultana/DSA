@@ -9,7 +9,6 @@ class Graph():
 	def isCyclicUtil(self, v, visited, recStack):
 		visited[v] = True
 		recStack[v] = True
-
 		# Recur for all neighbours
 		# if any neighbour is visited and in
 		# recStack then graph is cyclic
