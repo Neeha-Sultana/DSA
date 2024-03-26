@@ -19,7 +19,6 @@ class Graph():
 					return True
 			elif recStack[neighbour] == True:
 				return True
-
 		# The node needs to be popped from
 		# recursion stack before function ends
 		recStack[v] = False
