@@ -45,5 +45,3 @@ if __name__ == '__main__':
 		print("Graph contains cycle")
 	else:
 		print("Graph doesn't contain cycle")
-
-# Thanks to Divyanshu Mehta for contributing this code
