@@ -1,5 +1,4 @@
-# Python program to detect cycle
-in a graph
+# Python program to detect cycle in a graph
 from collections import defaultdict
 class Graph():
 	def __init__(self, vertices):
