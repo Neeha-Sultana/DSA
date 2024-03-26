@@ -6,7 +6,6 @@ class Graph():
 		self.V = vertices
 	def addEdge(self, u, v):
 		self.graph[u].append(v)
-
 	def isCyclicUtil(self, v, visited, recStack):
 		visited[v] = True
 		recStack[v] = True
