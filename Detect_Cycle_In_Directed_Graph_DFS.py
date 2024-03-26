@@ -33,7 +33,6 @@ class Graph():
 					return True
 		return False
 
-
 # Driver code
 if __name__ == '__main__':
 	g = Graph(4)
