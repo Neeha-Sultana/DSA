@@ -1,6 +1,5 @@
 # Python program to detect cycle
 # in a graph
-
 from collections import defaultdict
 
 
