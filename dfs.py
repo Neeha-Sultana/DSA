@@ -12,7 +12,6 @@ class Graph:
 		for neighbour in self.graph[v]:
 			if neighbour not in visited:
 				self.DFSUtil(neighbour, visited)
-
 	def DFS(self, v):
 		visited = set()
 		self.DFSUtil(v, visited)
