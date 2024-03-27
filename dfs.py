@@ -26,7 +26,6 @@ if __name__ == "__main__":
 	print("Following is Depth First Traversal (starting from vertex 2)")
 	# Function call
 	g.DFS(2)
-
 # This code is contributed by Neelam Yadav
 '''
 
