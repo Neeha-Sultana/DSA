@@ -44,8 +44,7 @@ class Graph:
         print(snode,end=" ")
         for neighbor in self.adjlst[snode]:
                if neighbor not in visited:
-                      self.dfsutil(neighbor,visited)
-                        
+                      self.dfsutil(neighbor,visited)                   
 gg=Graph()
 gg.addEdge(0,1)
 gg.addEdge(0,2)
