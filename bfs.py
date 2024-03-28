@@ -21,7 +21,7 @@ class Graph:
                 if visited_vertices[v] == False:  
                     queue.append(v)  
                     visited_vertices[v] = True  
-    
+   
   
 # Example code  
 # Initializing a graph  
