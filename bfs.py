@@ -1,6 +1,6 @@
 '''
 from collections import defaultdict as dd  
-  
+
 class Graph:  
     def __init__(self):  
         self.graph = dd(list)  
