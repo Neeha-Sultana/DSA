@@ -22,7 +22,6 @@ class Graph():
 		# recursion stack before function ends
 		recStack[v] = False
 		return False
-
 	# Returns true if graph is cyclic else false
 	def isCyclic(self):
 		visited = [False] * (self.V + 1)
