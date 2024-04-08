@@ -32,7 +32,6 @@ def lis(arr):
     lis_sequence = lis_sequences[max_length_index]
 
     return lis_sequence
-
 # Example usage:
 arr = [10, 22, 9, 33, 21, 50, 41, 60]
 print("Longest Increasing Subsequence:", lis(arr))
