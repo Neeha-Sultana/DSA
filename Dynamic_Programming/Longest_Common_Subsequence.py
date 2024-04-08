@@ -28,7 +28,6 @@ def lis(arr):
             if arr[i] > arr[j] and lis_lengths[i] < lis_lengths[j] + 1:
                 lis_lengths[i] = lis_lengths[j] + 1
                 lis_sequences[i] = lis_sequences[j] + [arr[i]]
-
     max_length_index = lis_lengths.index(max(lis_lengths))
     lis_sequence = lis_sequences[max_length_index]
 
