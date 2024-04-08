@@ -17,7 +17,6 @@ def lis(arr):
     return get_lis(arr,dp,n,0,-1)
 arr=[10, 9, 2, 5, 3, 7, 101, 18]
 print(lis(arr))
-
 '''
 
 #tabulation
