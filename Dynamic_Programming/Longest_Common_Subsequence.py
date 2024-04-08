@@ -9,7 +9,6 @@ def get_lis(arr,dp,n,ind,prev_ind):
     take=0
     if prev_ind==-1 or arr[ind]>arr[prev_ind]:
         take =1+get_lis(arr,dp,n,ind+1,ind)
-
     dp[ind][prev_ind+1]=max(take,not_take)
     return dp[ind][prev_ind+1]
 
