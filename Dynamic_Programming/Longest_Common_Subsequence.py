@@ -30,7 +30,6 @@ def lis(arr):
                 lis_sequences[i] = lis_sequences[j] + [arr[i]]
     max_length_index = lis_lengths.index(max(lis_lengths))
     lis_sequence = lis_sequences[max_length_index]
-
     return lis_sequence
 # Example usage:
 arr = [10, 22, 9, 33, 21, 50, 41, 60]
