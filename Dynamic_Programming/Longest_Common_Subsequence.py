@@ -5,7 +5,6 @@ def get_lis(arr,dp,n,ind,prev_ind):
         return 0
     if dp[ind][prev_ind+1]!=-1:
         return dp[ind][prev_ind+1]
-
     not_take=0+get_lis(arr,dp,n,ind+1,prev_ind)
     take=0
     if prev_ind==-1 or arr[ind]>arr[prev_ind]:
