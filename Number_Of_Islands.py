@@ -12,7 +12,6 @@ def dfs(i,j,grid,n,m):
 		for y in range(-1, 2):  
 			nRow, nCol = i + x, j + y
 			dfs(nRow,nCol,grid,n,m)
-		
 def bfs(i, j, grid, n, m):
     grid[i][j] = 0
     queue = deque([(i, j)])
