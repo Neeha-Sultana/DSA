@@ -24,7 +24,6 @@ def bfs(i, j, grid, n, m):
 		# Mark as visited and append to queue
                 grid[nRow][nCol] = 0
                 queue.append((nRow, nCol))
-
 def findIslands(mat, n, m):
 	cnt = 0
 	for i in range(n):
