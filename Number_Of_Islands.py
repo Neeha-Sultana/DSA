@@ -3,7 +3,6 @@ def dfs(i,j,grid,n,m):
 	# Check if its out of bound
 	if i<0 or i>=n or j<0 or j>=m or grid[i][j] == 0:
 		return
-
 	# Mark as visited
 	grid[i][j] = 0
 
