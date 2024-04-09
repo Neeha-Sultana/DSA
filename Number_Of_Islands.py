@@ -5,7 +5,6 @@ def dfs(i,j,grid,n,m):
 		return
 	# Mark as visited
 	grid[i][j] = 0
-
 	# Iterate for all possible directions
 	for x in range(-1, 2):  
 		for y in range(-1, 2):  
