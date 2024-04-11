@@ -4,7 +4,6 @@ def mergesort(arr,low,high):
         return
 
 
-
     
     mergesort(arr,low,med)
     mergesort(arr,med+1,high)
