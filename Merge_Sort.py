@@ -2,7 +2,6 @@ def mergesort(arr,low,high):
     med=(low+high)//2
     if low==high:
         return
-
     mergesort(arr,low,med)
     mergesort(arr,med+1,high)
     merge(arr,low,med,high)
