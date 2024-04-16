@@ -51,7 +51,6 @@ else:
 g1 = Graph(3)
 g1.addEdge(0, 1)
 g1.addEdge(1, 2)
-
 if g1.isCyclic():
     print("Graph contains cycle")
 else:
