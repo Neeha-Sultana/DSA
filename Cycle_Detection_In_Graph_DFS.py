@@ -37,7 +37,6 @@ class Graph:
                 if (self.isCyclicUtil(i, visited, -1)) == True:
                     return True
         return False
-
 # Create a graph given in the above diagram
 g = Graph(5)
 g.addEdge(1, 0)
