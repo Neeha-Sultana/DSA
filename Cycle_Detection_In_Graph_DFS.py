@@ -27,7 +27,6 @@ class Graph:
                 return True
         return False
     # Returns true if the graph contains a cycle, else false.
-
     def isCyclic(self):
         # Mark all the vertices as not visited
         visited = [False] * (self.V)
