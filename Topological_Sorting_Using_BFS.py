@@ -27,7 +27,6 @@ def topological_sort(adj, V):
 		return []
 	return result
 
-
 if __name__ == "__main__":
 	n = 4 # Number of nodes
 
