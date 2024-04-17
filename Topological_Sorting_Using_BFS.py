@@ -29,7 +29,6 @@ def topological_sort(adj, V):
 
 if __name__ == "__main__":
 	n = 4 # Number of nodes
-
 	# Edges
 	edges = [[0, 1], [1, 2], [3, 1], [3, 2]]
 
