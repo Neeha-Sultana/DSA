@@ -21,7 +21,6 @@ def topological_sort(adj, V):
 			# If indegree becomes 0, push it to the queue
 			if indegree[adjacent] == 0:
 				q.append(adjacent)
-
 	# Check for cycle
 	if len(result) != V:
 		print("Graph contains cycle!")
