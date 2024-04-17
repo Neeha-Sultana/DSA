@@ -27,8 +27,7 @@ class Graph:
         for i in range(self.V):
             if not visited[i] and self.is_cyclic_connected(i):
                 return True
-        return False
-        
+        return False        
 # Driver Code
 if __name__ == "__main__":
     V = 4
