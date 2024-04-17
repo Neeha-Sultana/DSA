@@ -6,7 +6,6 @@ def topological_sort(adj, V):
 	for i in range(V):
 		for vertex in adj[i]:
 			indegree[vertex] += 1
-
 	# Queue to store vertices with indegree 0
 	q = deque()
 	for i in range(V):
