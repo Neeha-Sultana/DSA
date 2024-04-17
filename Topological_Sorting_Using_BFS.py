@@ -1,5 +1,4 @@
 from collections import deque
-
 # Function to return list containing vertices in Topological order.
 
 
