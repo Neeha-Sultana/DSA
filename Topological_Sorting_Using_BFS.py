@@ -1,6 +1,5 @@
 from collections import deque
 # Function to return list containing vertices in Topological order.
-
 def topological_sort(adj, V):
 	# Vector to store indegree of each vertex
 	indegree = [0] * V
