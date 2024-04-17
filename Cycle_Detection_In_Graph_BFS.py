@@ -6,7 +6,7 @@ class Graph:
     def add_edge(self, u, v):
         self.adj[u].append(v)
         self.adj[v].append(u)
-        
+    
     def is_cyclic_connected(self, s):
         visited = [False] * self.V
         parent = [-1] * self.V
