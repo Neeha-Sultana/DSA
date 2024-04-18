@@ -4,8 +4,7 @@ class Solution:
         # Mark the cell as visited
         vis[row][col] = 1 
         # Coordinates - base coordinates
-        vec.append((row - row0, col - col0))
-        
+        vec.append((row - row0, col - col0))      
         n = len(grid)
         m = len(grid[0])
         
