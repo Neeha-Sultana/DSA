@@ -3,7 +3,7 @@ class Solution:
     def dfs(self, row, col, vis, grid, vec, row0, col0):
         # Mark the cell as visited
         vis[row][col] = 1
-       
+      
         # Coordinates - base coordinates
         vec.append((row - row0, col - col0))
         
