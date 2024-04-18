@@ -1,5 +1,4 @@
 from collections import deque
-
 class Solution:
     def dfs(self, row, col, vis, grid, vec, row0, col0):
         # Mark the cell as visited
