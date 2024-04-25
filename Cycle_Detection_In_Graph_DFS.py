@@ -12,8 +12,6 @@ class Graph:
         self.graph[v].append(w)
         # Add v to w_s list
 
-
-
         self.graph[w].append(v)
     # A recursive function that uses visited[] and parent to detect cycle in subgraph reachable from vertex v.
     def isCyclicUtil(self, v, visited, parent):
