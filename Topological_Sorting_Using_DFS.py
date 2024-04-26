@@ -9,7 +9,6 @@ def topologicalSortUtil(v, adj, visited, stack):
 	# Push current vertex to stack which stores the result
 	stack.append(v)
 
-
 # Function to perform Topological Sort
 def topologicalSort(adj, V):
 	# Stack to store the result
