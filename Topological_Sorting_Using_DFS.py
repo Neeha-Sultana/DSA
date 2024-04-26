@@ -12,7 +12,6 @@ def topologicalSortUtil(v, adj, visited, stack):
 def topologicalSort(adj, V):
 	# Stack to store the result
 	stack = []
-
 	visited = [False] * V
 
 	# Call the recursive helper function to store
