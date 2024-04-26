@@ -6,7 +6,6 @@ def topologicalSortUtil(v, adj, visited, stack):
 	for i in adj[v]:
 		if not visited[i]:
 			topologicalSortUtil(i, adj, visited, stack)
-
 	# Push current vertex to stack which stores the result
 	stack.append(v)
 
