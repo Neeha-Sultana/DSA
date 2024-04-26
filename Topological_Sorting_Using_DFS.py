@@ -13,7 +13,6 @@ def topologicalSort(adj, V):
 	# Stack to store the result
 	stack = []
 	visited = [False] * V
-
 	# Call the recursive helper function to store
 	# Topological Sort starting from all vertices one by
 	# one
