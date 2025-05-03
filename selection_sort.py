@@ -23,4 +23,6 @@ def SelectSort(arr):
                 sm=j
         arr[i],arr[sm]=arr[sm],arr[i]
     return arr
-                
+
+
+[10, 7, 9, 4, 20, 8]
